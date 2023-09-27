@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.centered-table {
+  margin: 0 auto; /* Ini akan membuat tabel berada di tengah secara horizontal */
+  width: 80%; /* Sesuaikan lebar tabel sesuai kebutuhan Anda */
+  border-collapse: collapse;
+}
+
+.center-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: orangered;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
